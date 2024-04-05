@@ -9,6 +9,7 @@ namespace WP_Rig\WP_Rig;
 
 if ( is_404() ) {
 	?>
+	
 	<header class="page-header">
 		<h1 class="page-title">
 			<?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'wp-rig' ); ?>

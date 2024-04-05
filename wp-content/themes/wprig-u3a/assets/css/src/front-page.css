@@ -52,5 +52,11 @@
 		border-top: 1px solid var(--global-font-color);
 		border-bottom: none;
 	}
+/*Amy modified*/
+		.custom-logo-link.img {
+			width: 100px;
+			height: 50px;
+		}
+
 
 }
