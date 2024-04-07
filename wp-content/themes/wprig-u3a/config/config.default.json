@@ -12,7 +12,7 @@
   "dev": {
     "browserSync": {
       "live": true,
-      "proxyURL": "wprig.test:8888",
+      "proxyURL": "http://192.168.33.10/wordpress/project",
       "bypassPort": "8181",
       "https": false
     },
