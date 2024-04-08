@@ -1,44 +1,17 @@
 <?php
 /**
- * The main template file
+ * Front to the WordPress application. This file doesn't do anything, but loads
+ * wp-blog-header.php which does and tells WordPress to load the theme.
  *
- * This is the most generic template file in a WordPress theme
- * and one of the two required files for a theme (the other being style.css).
- * It is used to display a page when nothing more specific matches a query.
- * E.g., it puts together the home page when no home.php file exists.
- *
- * @link https://codex.wordpress.org/Template_Hierarchy
- *
- * @package wp_rig
+ * @package WordPress
  */
 
-namespace WP_Rig\WP_Rig;
+/**
+ * Tells WordPress to load the WordPress theme and output it.
+ *
+ * @var bool
+ */
+define( 'WP_USE_THEMES', true );
 
-get_header();
-
-wp_rig()->print_styles( 'wp-rig-content' );
-
-?>
-	<main id="primary" class="site-main">
-		<?php
-		if ( have_posts() ) {
-
-			get_template_part( 'template-parts/content/page_header' );
-
-			while ( have_posts() ) {
-				the_post();
-
-				get_template_part( 'template-parts/content/entry', get_post_type() );
-			}
-
-			if ( ! is_singular() ) {
-				get_template_part( 'template-parts/content/pagination' );
-			}
-		} else {
-			get_template_part( 'template-parts/content/error' );
-		}
-		?>
-	</main><!-- #primary -->
-<?php
-get_sidebar();
-get_footer();
+/** Loads the WordPress Environment and Template */
+require __DIR__ . '/wp-blog-header.php';
