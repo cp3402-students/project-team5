@@ -12,7 +12,11 @@
   "dev": {
     "browserSync": {
       "live": true,
+<<<<<<< HEAD
       "proxyURL": "http://192.168.33.10/project",
+=======
+      "proxyURL": "http://192.168.33.10/wordpress/project",
+>>>>>>> 2aead48e3d76e37b16a7bd88de885a83ffd7bdc7
       "bypassPort": "8181",
       "https": false
     },

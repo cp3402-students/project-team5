@@ -7,7 +7,10 @@
 
 namespace WP_Rig\WP_Rig;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2aead48e3d76e37b16a7bd88de885a83ffd7bdc7
 if ( ! wp_rig()->is_primary_nav_menu_active() ) {
 	return;
 }
@@ -45,8 +48,15 @@ if ( ! wp_rig()->is_primary_nav_menu_active() ) {
 	?>
 
 	<?php echo $menu_toggle_button; /* phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped */ ?>
+<<<<<<< HEAD
 	<div class="primary-menu-container">
 		<?php wp_rig()->display_primary_nav_menu( array( 'menu_id' => 'primary-menu' ) ); ?>
 	</div>
 
+=======
+
+	<div class="primary-menu-container">
+		<?php wp_rig()->display_primary_nav_menu( array( 'menu_id' => 'primary-menu' ) ); ?>
+	</div>
+>>>>>>> 2aead48e3d76e37b16a7bd88de885a83ffd7bdc7
 </nav><!-- #site-navigation -->

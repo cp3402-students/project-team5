@@ -300,7 +300,14 @@ select {
 }
 
 .cta-button p {
-    color: #17645C;
+    color: #17645C;}
+
+/* here not sure*/
+.header-image img {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	height: 600px;
 }
 
 
@@ -325,7 +332,6 @@ select {
 		margin: 0;
 	}
 }
-
 	.site-title-wrapper {
 		display: flex;
 		justify-content: center;
@@ -683,8 +689,6 @@ nav div.wp-block-navigation__responsive-dialog {
 	text-decoration: none;
 	color: #FFC904;
 	font-size: 1.15em;
-
-
 }
 
 .main-navigation a:hover,

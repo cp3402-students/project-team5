@@ -16,7 +16,11 @@ namespace WP_Rig\WP_Rig;
 
 get_header();
 
+<<<<<<< HEAD
 wp_rig()->print_styles( 'wp-rig-content' )
+=======
+wp_rig()->print_styles( 'wp-rig-content' );
+>>>>>>> 2aead48e3d76e37b16a7bd88de885a83ffd7bdc7
 
 ?>
 	<main id="primary" class="site-main">
@@ -40,5 +44,9 @@ wp_rig()->print_styles( 'wp-rig-content' )
 		?>
 	</main><!-- #primary -->
 <?php
+<<<<<<< HEAD
 /*get_sidebar();*/
+=======
+get_sidebar();
+>>>>>>> 2aead48e3d76e37b16a7bd88de885a83ffd7bdc7
 get_footer();
