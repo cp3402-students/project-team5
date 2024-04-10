@@ -33,21 +33,5 @@ namespace WP_Rig\WP_Rig;
 		<?php
 	}
 
-	edit_post_link(
-		sprintf(
-			wp_kses(
-				/* translators: %s: post title */
-				__( 'Edit <span class="screen-reader-text">%s</span>', 'wp-rig' ),
-				array(
-					'span' => array(
-						'class' => array(),
-					),
-				)
-			),
-			get_the_title()
-		),
-		'<span class="edit-link">',
-		' </span>'
-	);
 	?>
 </div><!-- .entry-actions -->
