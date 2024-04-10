@@ -10,7 +10,6 @@ namespace WP_Rig\WP_Rig;
 if ( ! has_header_image() ) {
 	return;
 }
-<<<<<<< HEAD
 ?>
 <figure class="header-image">
     <div class="logo-container">
@@ -27,17 +26,3 @@ if ( ! has_header_image() ) {
         </div>
     </figcaption>
 </figure><!-- .header-image -->
-
-
-=======
-
-?>
-<figure class="header-image">
-	<?php the_header_image_tag(); ?>
-	<figcaption class="header-text"><?php esc_html_e( 'U3A Online is the world-first
-	virtual University of the Third
-	Age delivering online learning via the Internet. ', 'wp-rig' ); ?>
-</figcaption>
-</figure><!-- .header-image -->
-
->>>>>>> 2aead48e3d76e37b16a7bd88de885a83ffd7bdc7

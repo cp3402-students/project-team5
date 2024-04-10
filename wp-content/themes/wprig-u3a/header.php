@@ -29,10 +29,7 @@ namespace WP_Rig\WP_Rig;
 
 	<?php wp_head(); ?>
 </head>
-<<<<<<< HEAD
-=======
 
->>>>>>> 2aead48e3d76e37b16a7bd88de885a83ffd7bdc7
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 <div id="page" class="site">
