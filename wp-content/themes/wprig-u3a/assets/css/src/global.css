@@ -343,9 +343,8 @@ select {
 		font-family: var(--global-font-family);
 		font-stretch: condensed;
 		font-size: 18px;
-		color: rgb(239, 43, 8);
+		color: rgb(205, 10, 10);
 		font-weight: bold;
-		background-color: rgb(233, 236, 193);
 		padding: 10px;
 		border-radius: 5px;
 		text-align: center;
@@ -961,4 +960,12 @@ nav div.wp-block-navigation__responsive-dialog {
 were hidden (via .neverending) before. */
 .infinity-end.neverending .site-footer {
 	display: block;
+}
+
+footer#colophon {
+    background: #F2C50F38;
+}
+
+#footer-menu {
+    display: inline-block;
 }
