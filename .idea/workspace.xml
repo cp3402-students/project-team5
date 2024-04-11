@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17909381-21e7-45bb-8c7b-5b7984092fd3" name="Changes" comment="Add header and footer styles in starter theme, modify theme templates">
-      <change beforePath="$PROJECT_DIR$/wp-config.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-config.php" afterDir="false" />
-    </list>
+    <list default="true" id="17909381-21e7-45bb-8c7b-5b7984092fd3" name="Changes" comment="Add missing config files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +63,21 @@
       <option name="project" value="LOCAL" />
       <updated>1712773985316</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add missing composer files">
+      <created>1712838140021</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712838140021</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add missing config files">
+      <created>1712838169190</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712838169190</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -94,6 +106,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Restore default WordPress site files and default WP Rig files" />
     <MESSAGE value="Add header and footer styles in starter theme, modify theme templates" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add header and footer styles in starter theme, modify theme templates" />
+    <MESSAGE value="Add missing composer files" />
+    <MESSAGE value="Add missing config files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add missing config files" />
   </component>
 </project>
