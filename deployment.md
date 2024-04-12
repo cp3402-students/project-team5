@@ -62,12 +62,13 @@ To prepare the local environment, first, you need to install the following softw
 Then, follow these steps:
 ### Setting up Environment with PowerShell
 
-- Clone Cognacbox Repository
-1.git clone <[Cognacbox repository link](https://github.com/reddingwebpro/cognacbox)> <local folder path>
-2.Open a terminal tool, for example PowerShell, navigate to the Cognacbox root folder,
-3.start the virtual machine by running the command "Vagrant Up".
-4.If configuration of the virtual machine is needed, run the command "Vagrant ssh". Once finished, type "exit" to exit the virtual machine configuration.
-5.To turn off the virtual environment when needed, run "Vagrant halt"
+- **Clone the Cognacbox Repository to your local disk:**
+   1. Open a terminal tool, such as PowerShell, and execute the command `git clone <Cognacbox repository link> <your folder name to save Cognacbox>`.
+      You can use this link: [Cognacbox Repository: https://github.com/reddingwebpro/cognacbox](https://github.com/reddingwebpro/cognacbox)
+   2. Navigate to the root folder of Cognacbox that you just created.
+   3. Start the virtual machine by executing the command `Vagrant Up`.
+   4. If virtual machine configuration is required, execute the command `Vagrant ssh`. Upon completion, type `exit` to exit the virtual machine configuration.
+   5. To shut down the virtual environment when necessary, run `Vagrant halt`.
 
 - Download the WP Rig theme file
   
