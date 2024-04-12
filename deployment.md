@@ -110,7 +110,7 @@ Configure your WordPress CMS account name, password (this will be used to log in
 7.Then the local development successfully builds.
 
 
-- **Development of the WP Rig theme in VS Code**
+## 5. Development of the WP Rig theme in VS Code
 1. Open VS Code and navigate to the WP Rig root folder.
 2. Customize the features by modifying the following documents:
    - `Functions.php`: Add more customized features, e.g., menu options.
@@ -118,6 +118,29 @@ Configure your WordPress CMS account name, password (this will be used to log in
    - `Template-parts.php`: Customize the page parts (header, footer, nav, content, etc.) you want to appear on particular page templates.
    - CSS files: Customize your layout at `assets/src/editor/[the CSS file you want to customize]`.
    - Core PHP files in the `inc` folder are WP rig WordPress default settings. It is better not to touch them unless you know what you are          doing.
+
+## 6. GitHub Version Control with Terminal in VS Code
+
+1. Open VS Code and navigate to the project folder.
+
+2. Open the terminal in VS Code (you can do this by clicking "Terminal" -> "New Terminal" from the top menu).
+
+3. Make sure you are in the root directory of your project.
+
+4. Initialize the git repository by running this command in the terminal:'git init'.
+
+5. Add files to the staging area by running this command in the terminal:'git add .'.
+
+6. Commit changes to the local repository by running this command in the terminal:'git commit -m "your the commit message"'
+
+7. git remote add origin <remote_repository_URL>
+
+8. git push -u origin master (If your local branch is not "master", replace it with your current local branch.)
+
+9.Done. Everything is up to date!
+
+
+## 7.Web hosting
 
 
    
