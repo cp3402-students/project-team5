@@ -139,8 +139,25 @@ Configure your WordPress CMS account name, password (this will be used to log in
 
 9.Done. Everything is up to date!
 
+## 7.Web Hosting: Setting up staging and live sites 
+- **WP rig theme file migration**
 
-## 7.Web hosting
+1.Migrate the WP Rig theme files to staging and live sites using the following steps:
+Using the plugin for theme file migration, such as All-in-One WP Migration or DB Migration.
+
+1. Install the All-in-One WP Migration plugin on your WordPress sites.
+2. Export the WP Rig theme files from the source site using the All-in-One WP Migration plugin.
+3. Import the exported WP Rig theme files to the staging site using the same plugin.
+ 
+5. Test the theme on the staging site to ensure it functions correctly.
+6. Once validated, repeat the export/import process to migrate the theme to the live site.
+7. Test the theme again on the live site to confirm proper functionality.
+
+
+
+
+
+
 
 
    
