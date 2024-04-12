@@ -1,5 +1,3 @@
-![image](https://github.com/cp3402-students/project-team5/assets/113411770/ce107878-2319-4018-9559-7841ffa2777d)# Development and Deployment Workflow
-
 ## Summary of Tools Used
 - **CMS**: WordPress
 - **Documentation and Team Management**: Trello
@@ -68,7 +66,9 @@ Then, follow these steps:
       You can use this link: [Cognacbox Repository: https://github.com/reddingwebpro/cognacbox](https://github.com/reddingwebpro/cognacbox)
    2. Navigate to the root folder of Cognacbox that you just created.
    3. Start the virtual machine by executing the command `Vagrant Up`.
+   ![image](https://github.com/cp3402-students/project-team5/assets/113411770/86448d04-0c2d-42ed-b9ef-63d9ffc667c6)
    4. If virtual machine configuration is required, execute the command `Vagrant ssh`. Upon completion, type `exit` to exit the virtual machine configuration.
+   ![image](https://github.com/cp3402-students/project-team5/assets/113411770/851498b2-8188-41b5-b27f-92826a7fec0c)
    5. To shut down the virtual environment when necessary, run `Vagrant halt`.
 
 - **Download the WP Rig theme file**
@@ -79,11 +79,15 @@ Then, follow these steps:
 1. Enter this URL in your browser: 192.168.33.10. If your virtual machine is set up correctly, the Cognac Box dashboard webpage will open.
 2. Navigate to 192.168.33.10 and add your WP rig folder name to the URL. For example,
    if your WP rig is in the "WPproject" folder, the URL will be 192.168.33.10/WPproject
-3. Click Enter, and the WordPress installation wizard page will appear.
-   Configure your WordPress CMS account name, password (this will be used to log in to WordPress, please remember it),site name etc.
+   ![image](https://github.com/cp3402-students/project-team5/assets/113411770/02995744-1d45-4ef9-b479-b05e810a3f0b)
+
+3. Click Enter, and the WordPress installation wizard page will appear
+![image](https://github.com/cp3402-students/project-team5/assets/113411770/f0b2e445-61dc-4dad-b7ff-d72bd0be71f4)
+Configure your WordPress CMS account name, password (this will be used to log in to WordPress, please remember it),site name etc.
 4.Click the "Install WordPress" button at the bottom of the page.
 5.Once installation is complete, the WordPress login window will pop up.
   Input your account name and password, then click login to start your journey with WordPress.
+
 
 
 
