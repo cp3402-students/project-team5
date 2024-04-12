@@ -6,11 +6,11 @@ Welcome to the documentation for the WP rig theme! This guide is intended for ne
 ## Table of Contents
 
 - [Features](#features)
-- [Customization](#customization)
-- [Design Decisions](#design-decisions)
-- [Color Scheme](#color-scheme)
-- [Support](#support)
-- [Contributing](#contributing)
+- [Customization Design](#Customization Design)
+- [Continued Development](#Continued Development)
+- [More about the theme for questions](#More about the theme for questions)
+- [Support](#Contact JCU team 5 for support)
+
 
 ## Features
 
@@ -56,7 +56,7 @@ If you want to customize the default set of WordPress CMS:
 ## More about the theme for questions
 Visit theme site:  [https://wprig.io/]
 
-## Contact JCU team 5 for support
+## Support
 Cairns Campus, JCU 
 Developers
 1.Amy
@@ -64,4 +64,3 @@ Developers
 3.Robert
 4.Roderick
 
-## END. thank you
