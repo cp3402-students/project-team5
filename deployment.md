@@ -45,6 +45,7 @@ Trello is a web-based application that enables users to create boards, lists, an
 To stay updated on Trello board activities and receive timely reminders, integrate Discord with Trello. Follow this link for instructions: [https://n8n.io/integrations/discord/and/trello/](https://n8n.io/integrations/discord/and/trello/)
 
 ## 4. Local Environments & IDE：cognacbox, Visual Studio Code
+
 #### Cognac Box
 A super-simple LAMP stack for Vagrant.
 A pre-configured Vagrant Box with a full array of features to get you up and running with Vagrant in no time.
@@ -107,6 +108,19 @@ Configure your WordPress CMS account name, password (this will be used to log in
 5. After installing all the dependencies, in the VS Code terminal at the WP rig root path, run `npm run rig-init`, then run `npm run dev`.
 6. After successfully running `npm run dev`, the WP rig theme will be initialized, and a browser sync feature will be activated, allowing you to synchronize and observe changes made to your website during the development process.
 7.Then the local development successfully builds.
+
+
+- **Development of the WP Rig theme in VS Code**
+1. Open VS Code and navigate to the WP Rig root folder.
+2. Customize the features by modifying the following documents:
+   - `Functions.php`: Add more customized features, e.g., menu options.
+   - `Templates.php`: Customize the page structure you want to appear on a particular page.
+   - `Template-parts.php`: Customize the page parts (header, footer, nav, content, etc.) you want to appear on particular page templates.
+   - CSS files: Customize your layout at `assets/src/editor/[the CSS file you want to customize]`.
+   - Core PHP files in the `inc` folder are WP rig WordPress default settings. It is better not to touch them unless you know what you are          doing.
+
+
+   
 
 
   
