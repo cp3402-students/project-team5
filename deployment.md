@@ -75,11 +75,17 @@ Then, follow these steps:
   
 1. In terminal, under the Cognacbox/public root path execute the command `git clone <WP rig repository link> <your folder name to save WP rig>`.
       You can use this link get WP Rig theme: [https://github.com/wprig/wprig/], So now your WP rig is saved in the public folder.
-2. Enter this URL in your browser: 192.168.33.10. If your virtual machine is set up correctly, the Cognac Box dashboard webpage will open.
-3. Navigate to 192.168.33.10 and add your WP rig folder name to the URL. For example,
+- **WordPress Installation** 
+1. Enter this URL in your browser: 192.168.33.10. If your virtual machine is set up correctly, the Cognac Box dashboard webpage will open.
+2. Navigate to 192.168.33.10 and add your WP rig folder name to the URL. For example,
    if your WP rig is in the "WPproject" folder, the URL will be 192.168.33.10/WPproject
-5. Click Enter, and the WordPress installation wizard page will appear.
-   Configure your WordPress CMS account name and password (this will be used to log in to WordPress, please remember it).
+3. Click Enter, and the WordPress installation wizard page will appear.
+   Configure your WordPress CMS account name, password (this will be used to log in to WordPress, please remember it),site name etc.
+4.Click the "Install WordPress" button at the bottom of the page.
+5.Once installation is complete, the WordPress login window will pop up.
+  Input your account name and password, then click login to start your journey with WordPress.
+
+
 
 
   
