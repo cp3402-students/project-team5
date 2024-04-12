@@ -1,4 +1,4 @@
-# Development and Deployment Workflow
+![image](https://github.com/cp3402-students/project-team5/assets/113411770/ce107878-2319-4018-9559-7841ffa2777d)# Development and Deployment Workflow
 
 ## Summary of Tools Used
 - **CMS**: WordPress
@@ -63,6 +63,7 @@ Then, follow these steps:
 ### Setting up Environment with PowerShell
 
 - **Clone the Cognacbox Repository to your local disk:**
+  
    1. Open a terminal tool, such as PowerShell, and execute the command `git clone <Cognacbox repository link> <your folder name to save Cognacbox>`.
       You can use this link: [Cognacbox Repository: https://github.com/reddingwebpro/cognacbox](https://github.com/reddingwebpro/cognacbox)
    2. Navigate to the root folder of Cognacbox that you just created.
@@ -70,7 +71,17 @@ Then, follow these steps:
    4. If virtual machine configuration is required, execute the command `Vagrant ssh`. Upon completion, type `exit` to exit the virtual machine configuration.
    5. To shut down the virtual environment when necessary, run `Vagrant halt`.
 
-- Download the WP Rig theme file
+- **Download the WP Rig theme file**
+  
+1. In terminal, under the Cognacbox/public root path execute the command `git clone <WP rig repository link> <your folder name to save WP rig>`.
+      You can use this link get WP Rig theme: [https://github.com/wprig/wprig/], So now your WP rig is saved in the public folder.
+2. Enter this URL in your browser: 192.168.33.10. If your virtual machine is set up correctly, the Cognac Box dashboard webpage will open.
+3. Navigate to 192.168.33.10 and add your WP rig folder name to the URL. For example,
+   if your WP rig is in the "WPproject" folder, the URL will be 192.168.33.10/WPproject
+5. Click Enter, and the WordPress installation wizard page will appear.
+   Configure your WordPress CMS account name and password (this will be used to log in to WordPress, please remember it).
+
+
   
   
   
