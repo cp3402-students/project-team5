@@ -155,7 +155,9 @@ Configure your WordPress CMS account name, password (this will be used to log in
 
 - **If you need to migrate between staging and live sites**
 1.Install All-in-One WP Migration plugin.
+  
 2.Hit the export button to bundle your database, media files, plugins, and themes into one tidy file.
+
 3.Unpack the file at the new location with an easy-to-use “drag and drop” feature in the WordPress dashboard of your new website.
 
 More details can be found here: [https://wordpress.org/plugins/all-in-one-wp-migration/]
