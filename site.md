@@ -48,7 +48,7 @@ The plugins we used are:
 1. Show current templates.
 2. UsersWP.
 3. WP FORMS.
-4. 
+4. WordPress Importer
 
 Plugin Usage:
 
@@ -70,3 +70,10 @@ Plugin Usage:
    - Drag and drop form fields to build your form.
    - Configure form settings such as notifications and confirmations.
    - Embed the form on your website using the generated shortcode.
+
+**3.WordPress Importer:**
+  - The WordPress Importer plugin allows you to import content from a WordPress export file (in XML format) into your WordPress site.
+  - Install and activate the plugin from the WordPress plugin repository.
+  - Upload the XML file containing your exported content in the Tools > Import section of your WordPress dashboard.
+  - Follow the on-screen instructions to complete the import process.
+  - Review and adjust the imported content as needed after the import is complete.
