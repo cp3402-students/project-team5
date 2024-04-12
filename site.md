@@ -24,7 +24,21 @@ Subsequent phases will explore expansion into other international regions.
 
 
 ## Site Organisation, Maintenance & Updating:
+### Updating the site
 
+- **Adding a New Page:**
+
+1. Go to your WordPress dashboard.
+2. Click on "Pages" > "Add New."
+3. Enter a title and content.
+4. Click "Publish."
+
+-**Adding a New Post:**
+
+1. From the dashboard, click "Posts" > "Add New."
+2. Enter a title and content.
+3. Optionally, add categories and tags.
+4. Click "Publish."
 
 
 ### Plugin details:
