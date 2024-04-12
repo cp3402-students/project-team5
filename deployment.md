@@ -145,10 +145,11 @@ Configure your WordPress CMS account name, password (this will be used to log in
 
 1. Back up the local site.
 2. Set up the live WordPress site on the AWS platform.
-3. Import the local backup into the live site.
-4. Test the theme on the staging site to ensure proper functionality.
-5. Once validated, repeat the export/import process to migrate the theme to the live site.
-6. Test the theme again on the live site to confirm proper functionality.
+3. Import the local backup into the live site.Tes
+**Testing**
+5. Test the theme on the staging site to ensure proper functionality.
+6. Once validated, repeat the export/import process to migrate the theme to the live site.
+7. Test the theme again on the live site to confirm proper functionality.
 
 
 
