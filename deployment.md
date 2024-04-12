@@ -83,17 +83,30 @@ Then, follow these steps:
 1. Enter this URL in your browser: 192.168.33.10. If your virtual machine is set up correctly, the Cognac Box dashboard webpage will open.
 2. Navigate to 192.168.33.10 and add your WP rig folder name to the URL. For example,
    if your WP rig is in the "WPproject" folder, the URL will be 192.168.33.10/WPproject
-  
-![image](https://github.com/cp3402-students/project-team5/assets/113411770/012e1ffb-4563-45b8-b42a-adf55368f80a)
-
 3. Click Enter, and the WordPress installation wizard page will appear
 Configure your WordPress CMS account name, password (this will be used to log in to WordPress, please remember it),site name etc.
 4.Click the "Install WordPress" button at the bottom of the page.
 5.Once installation is complete, the WordPress login window will pop up.
-  Input your account name and password, then click login to start your journey with WordPress.
+  Input your account name and password, then click login to start your journey with WordPress.-
 
+- **Activate your WP rig theme in WordPress CMS**
 
+   - In the WordPress dashboard, navigate to the left-side menu -> Appearance -> Themes.
+   
+   - Select the WP rig theme, then click on the "Activate" button.
 
+- **Get ready your IDE tool (VS Code) and initialize the WP rig theme**
+1. Install VS Code.
+2. Open VS Code, navigate to the WP rig root folder, and open the terminal in VS Code within the WP rig root path.
+3. Install dependencies to initialize the WP rig theme.
+4. WP Rig requires the following dependencies:
+   - PHP 7.0 or higher (PHP 8 recommended)
+   - npm (Requires Node.js installation)
+   - Composer (installed globally)
+   Full installation instructions are provided at their respective websites: [https://github.com/wprig/wprig/](https://github.com/wprig/wprig/)
+5. After installing all the dependencies, in the VS Code terminal at the WP rig root path, run `npm run rig-init`, then run `npm run dev`.
+6. After successfully running `npm run dev`, the WP rig theme will be initialized, and a browser sync feature will be activated, allowing you to synchronize and observe changes made to your website during the development process.
+7.Then the local development successfully builds.
 
 
   
