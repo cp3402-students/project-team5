@@ -59,7 +59,7 @@ To prepare the local environment, first, you need to install the following softw
 - [Git](https://git-scm.com/)
 
 Then, follow these steps:
-### Setting up Environment with PowerShell
+#### Setting up Environment with PowerShell
 
 - **Clone the Cognacbox Repository to your local disk:**
   
