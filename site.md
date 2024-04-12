@@ -33,7 +33,7 @@ Subsequent phases will explore expansion into other international regions.
 3. Enter a title and content.
 4. Click "Publish."
 
--**Adding a New Post:**
+- **Adding a New Post:**
 
 1. From the dashboard, click "Posts" > "Add New."
 2. Enter a title and content.
@@ -41,8 +41,32 @@ Subsequent phases will explore expansion into other international regions.
 4. Click "Publish."
 
 
+
 ### Plugin details:
+The plugins we used are:
 
+1. Show current templates.
+2. UsersWP.
+3. WP FORMS.
+4. 
 
+Plugin Usage:
 
-### Updating the site
+**1. Show current templates:**
+   - This plugin allows you to display the current templates used on your WordPress site. 
+   - After installation, go to the settings page and activate the plugin. 
+   - Once activated, the current templates will be displayed on the front end of your website.
+
+**2. UsersWP:**
+   - UsersWP is a user profile and membership plugin for WordPress.
+   - Install and activate the plugin.
+   - Set up your user registration and login pages.
+   - Customize user profiles and fields according to your needs.
+
+**3. WP FORMS:**
+   - WP Forms is a drag-and-drop form builder for WordPress.
+   - Install and activate the plugin.
+   - Create a new form by navigating to WP Forms > Add New.
+   - Drag and drop form fields to build your form.
+   - Configure form settings such as notifications and confirmations.
+   - Embed the form on your website using the generated shortcode.
