@@ -6,10 +6,10 @@ Welcome to the documentation for the WP rig theme! This guide is intended for ne
 ## Table of Contents
 
 - [Features](#features)
-- [Customization Design](#Customization Design)
-- [Continued Development](#Continued Development)
-- [More about the theme for questions](#More about the theme for questions)
-- [Support](#Contact JCU team 5 for support)
+- [Customization Design](#customization-design)
+- [Continued Development](#continued-development)
+- [More about the theme for questions](#more-about-the-theme-for-questions)
+- [Support](#support)
 
 
 ## Features
