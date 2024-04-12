@@ -14,15 +14,19 @@ Welcome to the documentation for the WP rig theme! This guide is intended for ne
 
 ## Features
 
-- Feature 1
-  Custom Logo
-- Feature 2
-  Nav menu position
-- Feature 3
-  Custom Header sections
-    - header image
-    - site welcome and discrible text
-    - Call to Action Bar
+Customized following features by modifying files in those paths:
+
+Feature 1: Custom Logo
+- Path: your WP rig folder/template-parts/header/custom_header.php
+
+Feature 2: Nav menu position
+- Path: your WP rig folder/template-parts/header/navigation.php
+
+Feature 3: Custom Header sections
+- Path: your WP rig folder/template-parts/header/custom_header.php
+  - Header image
+  - Site welcome and describe text
+  - Call to Action Bar
 
 
 ## Customization Design
@@ -37,3 +41,27 @@ All other files that you can customize can be found in that folder.
 
 
 ## Continued Development
+
+If you want to customize the default structure of the page:
+
+- Optional templates: `WP rig folder/Optional templates`
+
+If you want to customize the default template parts of the page:
+
+- WP rig folder/template-parts
+
+If you want to customize the default set of WordPress CMS:
+
+- Core PHP files of WordPress CMS settings in `inc/(the file name).php`
+## More about the theme for questions
+Visit theme site:  [https://wprig.io/]
+
+## Contact JCU team 5 for support
+Cairns Campus, JCU 
+Developers
+1.Amy
+2.Hsu
+3.Robert
+4.Roderick
+
+## END. thank you
