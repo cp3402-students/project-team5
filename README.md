@@ -7,6 +7,11 @@ about the site setup, how to navigate, customize, and maintain it.
 This website utilizes WordPress and  a custom WP Rig theme, designed and developed specifically to meet the need for
 a institution website. WP Rig is a modern, progressive WordPress starter theme and build process bundled into one.
 
+## Documentation
+[Site.md](https://github.com/cp3402-students/project-team5/blob/main/site.md)
+[theme.md](https://github.com/cp3402-students/project-team5/blob/main/theme.md)
+[deployment.md](https://github.com/cp3402-students/project-team5/blob/main/deployment.md)
+
 ## Theme Features
 - Custom Design: The theme is tailored to reflect U3A brand identity and requirements.
 - Responsive Layout: Ensures the site looks great on various devices and screen sizes.
